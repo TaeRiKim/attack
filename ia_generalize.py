@@ -1,4 +1,4 @@
-def inversionattack(net, data, device, classes, num):
+class inversionattack(net, data, device, classes, num):
     tp = transforms.Compose([
     transforms.Resize(32),
     transforms.CenterCrop(32),
